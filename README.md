@@ -14,17 +14,22 @@ Apart for this requirements, Ms Sato is open to explore a cryptocurrency selecte
 ## Proposed Solution
 
 Design statement:
-I will to design and make a ———— for a client who is ———. The ——– will about ———— and is constructed using the software ———. It will take  ———- to make and will be evaluated according to the criteria ———.
+I will to design and make a **digital ledger** for a client who is **Mr Sato**. The **digital ledger** will about **cryptocurrency** and is constructed using the software **Python** It will take  **until Project Week** to make and will be evaluated according to the criterias below.
 
 Justify the tools/structure of your solution
+I will be using Python for this solution becasue it provides easy data scraping functions and various libraries which could help in providing useful statistics to Mr Sato
+
+I will be choosing Ethereum(ETHUSD) as my cryptocurrency for this solution
 
 ## Success Criteria
 1. The electronic ledger is a text-based software (Runs in the Terminal).
 2. The electronic ledger display the basic description of the cyrptocurrency selected.
 3. The electronic ledger allows to enter, withdraw and record transactions.
-4.
-5.
-6.
+4. The electronic ledger shows past records of the cryptocurrency selected.
+5. The electronic ledger shows useful statistics such as overall gain/loss
+6. The electronic ledger allows to search for transactions on a particular day
+
+
 
 # Criteria B: Design
 
