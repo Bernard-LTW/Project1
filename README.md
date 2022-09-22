@@ -34,6 +34,7 @@ I will be choosing Ethereum(ETHUSD) as my cryptocurrency for this solution
 # Criteria B: Design
 
 ## System Diagram
+![](CryptoWallet_SysD.jpeg)
 
 ## Flow Diagrams
 
@@ -41,6 +42,6 @@ I will be choosing Ethereum(ETHUSD) as my cryptocurrency for this solution
 ## Record of Tasks
 | Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
 |---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
-| 1       | Create system diagram                                         | To have a clear idea of the hardware and software requirements for the proposed solution                        | 10min         | Sep 24                 | B         |
+| 1       | Create system diagram                                         | To have a clear idea of the hardware and software requirements for the proposed solution                        | 10min         | Sep 22                 | A         |
 
 
