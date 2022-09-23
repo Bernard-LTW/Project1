@@ -21,13 +21,15 @@ I will be using Python for this solution becasue it provides easy data scraping 
 
 I will be choosing Ethereum(ETHUSD) as my cryptocurrency for this solution
 
-Ethereum
+Ethereum is a technology for building apps and organizations, holding assets, transacting and communicating without being controlled by a central authority. There is no need to hand over all your personal details to use Ethereum - you keep control of your own data and what is being shared. Ethereum has its own cryptocurrency, Ether, which is used to pay for certain activities on the Ethereum network. 
+(“What Is Ethereum?” Ethereum.org, [ethereum.org/en/what-is-ethereum/.](ethereum.org/en/what-is-ethereum/.))
+
 
 ## Success Criteria
 1. The electronic ledger is a text-based software (Runs in the Terminal).
 2. The electronic ledger display the basic description of the cyrptocurrency selected.
 3. The electronic ledger allows to enter, withdraw and record transactions.
-4. The electronic ledger is password-protected
+4. The electronic ledger is password-protected.
 5. The electronic ledger shows past records of the cryptocurrency selected up to one month.
 6. The electronic ledger shows useful statistics such as overall gain/loss
 7. The electronic ledger allows to convert from USD to the crypto or vice versa
