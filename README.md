@@ -14,7 +14,7 @@ Apart for this requirements, Ms Sato is open to explore a cryptocurrency selecte
 ## Proposed Solution
 
 Design statement:
-I will to design and make a **digital ledger** for a client who is **Mr Sato**. The **digital ledger** will about **cryptocurrency** and is constructed using the software **Python** It will take  **until Project Week** to make and will be evaluated according to the criterias below.
+I will to design and make a **digital ledger** for a client who is **Mr Sato**. The **digital ledger** will be about **storing transactions  regarding cryptocurrency** and is constructed using the software **Python** It will take  **until Project Week** to make and will be evaluated according to the criterias below.
 
 Justify the tools/structure of your solution
 I will be using Python for this solution becasue it provides easy data scraping functions and various libraries which could help in providing useful statistics to Mr Sato
@@ -35,13 +35,16 @@ I will be choosing Ethereum(ETHUSD) as my cryptocurrency for this solution
 
 ## System Diagram
 ![](CryptoWallet_SysD.jpeg)
+*Fig.1* **System diagram of this program**
 
 ## Flow Diagrams
 
 
 ## Record of Tasks
-| Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
-|---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
-| 1       | Create system diagram                                         | To have a clear idea of the hardware and software requirements for the proposed solution                        | 10min         | Sep 22                 | A         |
-
+| Task No | Planned Action            | Planned Outcome                                                                          | Time estimate | Target completion date | Criterion |
+|---------|---------------------------|------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
+| 1       | Create system diagram     | To have a clear idea of the hardware and software requirements for the proposed solution | 10min         | Sep 22                 | B         |
+| 2       | Interview with the Client | To discuss client's needs and define success criteria                                    | 5min          | Sep 23                 | A         |
+| 3       | Code the Menu             | To have menu items and title written on the screen                                       | 20min         | Sep 23                 | B         |
+|         |                           |                                                                                          |               |                        |           |
 
