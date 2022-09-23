@@ -21,13 +21,16 @@ I will be using Python for this solution becasue it provides easy data scraping 
 
 I will be choosing Ethereum(ETHUSD) as my cryptocurrency for this solution
 
+Ethereum
+
 ## Success Criteria
 1. The electronic ledger is a text-based software (Runs in the Terminal).
 2. The electronic ledger display the basic description of the cyrptocurrency selected.
 3. The electronic ledger allows to enter, withdraw and record transactions.
-4. The electronic ledger shows past records of the cryptocurrency selected up to one month.
-5. The electronic ledger shows useful statistics such as overall gain/loss
-6. The electronic ledger allows to convert from USD to the crypto or vice versa
+4. The electronic ledger is password-protected
+5. The electronic ledger shows past records of the cryptocurrency selected up to one month.
+6. The electronic ledger shows useful statistics such as overall gain/loss
+7. The electronic ledger allows to convert from USD to the crypto or vice versa
 
 
 
