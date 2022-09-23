@@ -1,7 +1,8 @@
 # Crypto Wallet
 
-![](22ROOSE-master768.gif)  
-<sub>Illustration for Glenn Harvey</sub>
+![](https://cdn.dribbble.com/users/900374/screenshots/5336936/wallet_2.gif)
+
+<sub>Cryptocurrency Wallet by Framination on Dribble</sub>
 
 # Criteria A: Planning
 
