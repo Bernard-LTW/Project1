@@ -53,3 +53,4 @@ Ethereum is a technology for building apps and organizations, holding assets, tr
 | 2       | Interview with the Client  | To discuss client's needs and define success criteria                                    | 5min          | Sep 23                 | A         |
 | 3       | Code the Menu              | To have menu items and title written on the screen                                       | 20min         | Sep 23                 | C         |
 | 4       | Code authentication system | A tested program to protect the application using a password with encryption             | 60min         | Sep 27                 | C         |
+| 5       | Code Main Functions        | A function base of the program                                                           | 4hrs          | Sep 30                 | C         |
