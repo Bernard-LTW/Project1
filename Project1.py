@@ -14,6 +14,7 @@ import simple_login
 # Importing Modules
 from my_lib import validate_int_input, validate_float_input,validate_date_input
 import yfinance as yf
+import maskpass
 
 # Defining Variables
 password = "1234"
@@ -36,6 +37,7 @@ colors = ["\033[0;30m", "\033[0;31m", "\033[0;32m", "\033[0;33m", "\033[0;34m", 
           "\033[0;79m", "\033[0;80m", "\033[0;81m", "\033[0;82m", "\033[0;83m", "\033[0;84m", "\033[0;85m",
           "\033[0;86m", "\033[0;87m", "\033[0;88m", "\033[0;89m", "\033[0;90m", "\033[0;91m", "\033[0;92m"]
 end_code = "\033[00m"
+widthcentering = 100
 
 ## End of Initial Setup ##
 
@@ -43,14 +45,14 @@ end_code = "\033[00m"
 print(f"{colors[2]}Welcome to the Electronic Ledger{end_code}")
 pass_wrong_count = 0
 username = input("Please enter your username: ")
-password = input("Please enter your password: ")
+password = maskpass.askpass("Please enter your password: ")
 temp = simple_login.simple_login(username, password)
 while pass_wrong_count < 3:
     while temp == False:
         pass_wrong_count += 1
         print(f"{colors[1]}Incorrect username or password. Please try again.{end_code}")
         username = input("Please enter your username: ")
-        password = input("Please enter your password: ")
+        password = maskpass.askpass("Please enter your password: ")
         temp = simple_login.simple_login(username, password)
     else:
         print(f"{colors[2]}Welcome {username.capitalize()}{end_code}".center(50))
@@ -59,14 +61,14 @@ else:
     print(f"{colors[1]}Too many incorrect attempts. Exiting program.{end_code}")
 print(f"{colors[2]}Access Granted{end_code}".center(50))
 
-menu = """
+menu = colors[6] + """
 1. View Basic Description of the Cryptocurrency
 2. View Wallet Balance
 3. Enter, Withdraw, Record a Transaction
 4. View Past Records of the Cryptocurrency
 5. View Useful Statistics
 6. Exit
-"""
+""" + end_code
 
 
 ## Functions ##
@@ -87,17 +89,21 @@ def wallet_balance():
                 # print(data)
                 balance += float(data[1])
             i += 1
-    print(f"You currently have {colors[1]}{balance} {crypto_name}{end_code} in your wallet, which is worth {colors[1]}{round(balance*float(ChosenTicker.info['regularMarketPrice']),2)} USD{end_code} currently.")
+    temp = f"You currently have {colors[1]}{balance} {crypto_name}{end_code} in your wallet, which is worth {colors[1]}{round(balance*float(ChosenTicker.info['regularMarketPrice']),2)} USD{end_code} currently."
+    temp = temp.center(widthcentering, "=")
+    #print(colors[2] + "=" * widthcentering + end_code)
+    print(temp)
+    #print(colors[2] + "=" * widthcentering + end_code)
 
 
 def enter_withdraw_record():
-    print("Enter, Withdraw, Record a Transaction")
-    print("""
+    print(f"{colors[4]}Enter, Withdraw, Record a Transaction{end_code}")
+    print(colors[4] +"""
         1. Enter a transaction
         2. Withdraw a transaction
         3. Record a transaction
         4. Back to main menu
-        """)
+        """ +  end_code)
     option = validate_int_input("Please choose an option: ")
     if option == 1:
         with open("wallet.csv", "a") as file:
