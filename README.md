@@ -52,7 +52,7 @@ Ethereum is a technology for building apps and organizations, holding assets, tr
 # Criteria B: Design
 
 ## System Diagram
-![](CryptoWallet_SysD.jpeg)
+![](CryptoWallet_SysD2.jpeg)
 *Fig.1* **System diagram of this program**
 
 ## Flow Diagrams
