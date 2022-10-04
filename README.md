@@ -70,7 +70,7 @@ Ethereum is a technology for building apps and organizations, holding assets, tr
 *Fig.4* **Flow diagram of the withdrawing transactions function**
 
 
-## Record of Tasks(3 Functional Test + 3 Non-Functional Test)
+## Record of Tasks
 | Task No | Planned Action                  | Planned Outcome                                                                          | Time estimate | Target completion date | Criterion |
 |---------|---------------------------------|------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
 | 1       | Create system diagram           | To have a clear idea of the hardware and software requirements for the proposed solution | 10min         | Sep 22                 | B         |
