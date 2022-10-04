@@ -41,7 +41,9 @@ def validate_float_input(prompt: str):
 def validate_date_input(prompt: str):
     while True:
         try:
-            return datetime.datetime.strptime(input(prompt), '%Y-%m-%d')
+            temp = datetime.datetime.strptime(input(prompt), '%Y-%m-%d')
+            temp = temp.date()
+            return temp
         except ValueError:
             print(f"{colors[1]}Incorrect data, should be YYYY-MM-DD{end_code}")
 
