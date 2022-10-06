@@ -130,7 +130,7 @@ def enter_withdraw_record():
         a_file.close()
         new_file = open("wallet.csv", "w")
         for line in list_of_lines:
-            if date not in line:
+            if str(date) not in line:
                 new_file.write(line)
         new_file.close()
         print(f"{colors[2]}Transaction withdrawn!{end_code}")
